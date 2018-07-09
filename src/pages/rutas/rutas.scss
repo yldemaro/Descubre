@@ -1,0 +1,28 @@
+page-rutas {
+	p{
+		color: white !important;
+		font-size: 2rem !important;
+		font-weight:bold !important;
+	}
+	.card-background-page {
+		ion-card {
+			position: relative;
+			text-align: center;
+		}
+
+		.card-title {
+			position: absolute;
+			font-size: 1.5em;
+			width: 100%;
+			font-weight: bold;
+			color: #fff;
+			background:#220fe4;
+			opacity: .4;
+			height: 100%;
+			top:0%;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+		}
+	}
+}

@@ -1,0 +1,44 @@
+<!--
+  Generated template for the DetalleRutaPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+	<ion-navbar>
+		<button ion-button menuToggle>
+			<ion-icon  name="menu" style=""></ion-icon>
+		</button>
+		<ion-title>detalleRuta</ion-title>
+	</ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding style="text-align: center;">
+	<div *ngIf="rutas=='totora'">
+		<h3>Ruta {{rutas | uppercase}}</h3>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15800.682052017954!2d-79.11760222208022!3d-8.084086563667384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3bf7f8771e73%3A0xb5d9f2e453ecc75d!2sHuanchaco!5e0!3m2!1ses-419!2spe!4v1530196536824" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	<div *ngIf="rutas=='huanchaco'">
+		<h3>Ruta {{rutas | uppercase}}</h3>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15800.682052017954!2d-79.11760222208022!3d-8.084086563667384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3bf7f8771e73%3A0xb5d9f2e453ecc75d!2sHuanchaco!5e0!3m2!1ses-419!2spe!4v1530196536824" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	<div *ngIf="rutas=='brujo'">
+		<h3>Ruta {{rutas | uppercase}}</h3>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.806754987563!2d-79.30789958578842!3d-7.915244780979822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad4bf17dd94a83%3A0xe3d1e1c1f7e7e1a3!2sComplejo+Arqueol%C3%B3gico+El+Brujo!5e0!3m2!1ses-419!2spe!4v1530196726448" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	<div *ngIf="rutas=='huaca'">
+		<h3>Ruta {{rutas | uppercase}}</h3>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.6913859619426!2d-78.99448509347327!3d-8.132867953344668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad17be9b38b059%3A0xbfa558ea897165e3!2sLa+Huaca+de+la+Luna!5e0!3m2!1ses-419!2spe!4v1530196855357" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	<div *ngIf="rutas=='chan'">
+		<h3>Ruta {{rutas | uppercase}}</h3>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.9600870829854!2d-79.07680148578626!3d-8.105546583329259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3c5aac618ac5%3A0xcb9b94821b72a829!2sRuinas+de+Chan-Chan!5e0!3m2!1ses-419!2spe!4v1530196933046" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	<div *ngIf="rutas=='centro'">
+		<h3>Ruta {{rutas | uppercase}}</h3>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7899.816218199823!2d-79.03159582803443!3d-8.110838805097146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3d8387a91d09%3A0xbfeb703329913196!2sCentro+Historico%2C+Trujillo+13001!5e0!3m2!1ses-419!2spe!4v1530196993870" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+</ion-content>

@@ -1,0 +1,28 @@
+page-contacto {
+	p{
+		color: white !important;
+		font-size: 2rem !important;
+		font-weight:bold !important;
+	}
+	.card-background-page {
+		ion-card {
+			position: relative;
+			text-align: center;
+		}
+
+		.card-title {
+			position: absolute;
+			top: 0%;
+			font-size: 2.0em;
+			width: 100%;
+			font-weight: bold;
+			color: #fff;
+			height:100%;
+			background:#88A28D;
+			opacity:.8;
+			display:flex;
+			justify-content: center;
+			align-items:center;
+		}
+	}
+}

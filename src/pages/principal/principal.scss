@@ -1,0 +1,22 @@
+page-principal {
+
+	.scroll-content{
+		background: url('../assets/imgs/fondoprincipal.jpg') !important;
+	}
+	.inicio{
+		margin-top:30px;font-weight: bolder;color:white;float: right; margin-right: 16px;
+	}
+	.colorChan{
+		color: white;
+	}
+	.boton{
+		background: rgb(147,189,1);border-radius: 20px; width: 300px;opacity: .7;
+	}
+	.botonInfo{
+		background: #000; color: white; opacity: .7;border-radius: 20px; width: 300px;
+	}
+	.conteBotones{
+		text-align: center; margin-top: 50%;
+	}
+
+}

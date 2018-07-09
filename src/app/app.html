@@ -1,16 +1,27 @@
 <ion-menu [content]="content">
-  <ion-header>
+  <ion-header >
     <ion-toolbar>
       <ion-title>Menu</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <ion-content>
-    <ion-list>
-      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
+  <ion-content style="background: url('assets/imgs/estatua.png') center no-repeat;">
+    <ion-list style="padding: 6px;">
+      <ion-searchbar class="buscador"></ion-searchbar>
+      <button class="boton" style="border-top: none !important; background: transparent !important; border-bottom: none !important;" menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)" class="probando">
         {{p.title}}
       </button>
+
+
+
+      <div class="contenedor" style="">
+        <p style="color: white;margin-bottom: 0;">Hola que tal</p>
+        <p style="color: #ADADAD;margin-top: 0;">michaelvaldivieso@hotmail.com</p>
+      </div>
+      
+
     </ion-list>
+
   </ion-content>
 
 </ion-menu>

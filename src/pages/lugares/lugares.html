@@ -1,0 +1,29 @@
+<ion-header>
+
+	<ion-navbar>
+		<button ion-button menuToggle>
+			<ion-icon  name="menu" style=""></ion-icon>
+		</button>
+		<ion-title>Lugares</ion-title>
+	</ion-navbar>
+
+</ion-header>
+
+<ion-content>
+
+	<div style="float: right; margin-right: 20px;">
+		<p style="font-weight: bolder;color: white; padding: 5px;">INICIO</p>
+	</div>
+
+
+	<ion-grid style="padding: 0;">
+		<ion-row>
+			<ion-col style="padding: 0;" col-12 *ngFor="let lugar of lugares" class="card-background-page">
+				<ion-card (click)="probando(lugar)">
+					<img height="159" src="{{lugar.img}}"/>
+					<div class="card-title">{{lugar.nombre}}</div>
+				</ion-card>
+			</ion-col>
+		</ion-row>
+	</ion-grid>
+</ion-content>
